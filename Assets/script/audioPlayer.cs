@@ -28,7 +28,7 @@ public class AudioPlayer : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Alien")) // Check if the plant collided with the alien
+        if (other.CompareTag("wand")) // Check if the plant collided with the alien
         {
             plantAudioSource.Play();
             
